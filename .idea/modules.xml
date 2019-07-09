@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/j1902_0626_bwqc.iml" filepath="$PROJECT_DIR$/j1902_0626_bwqc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j1902_bwqc_client/j1902_bwqc_client.iml" filepath="$PROJECT_DIR$/j1902_bwqc_client/j1902_bwqc_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j1902_bwqc_common/j1902_bwqc_common.iml" filepath="$PROJECT_DIR$/j1902_bwqc_common/j1902_bwqc_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j1902_bwqc_ht/j1902_bwqc_ht.iml" filepath="$PROJECT_DIR$/j1902_bwqc_ht/j1902_bwqc_ht.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j1902_bwqc_server/j1902_bwqc_server.iml" filepath="$PROJECT_DIR$/j1902_bwqc_server/j1902_bwqc_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/j1902_bwqc_springboot_gongneng1/j1902_bwqc_springboot_gongneng1.iml" filepath="$PROJECT_DIR$/j1902_bwqc_springboot_gongneng1/j1902_bwqc_springboot_gongneng1.iml" />
+    </modules>
+  </component>
+</project>

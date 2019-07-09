@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9090/eureka
+server:
+  port: 10001
+spring:
+  application:
+    name: bwqc-client
+  datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/bwqc?characterEncoding=utf-8&serverTimezone=UTC
+      username: root
+      password: 123456
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.xk.j1902.pojo
+

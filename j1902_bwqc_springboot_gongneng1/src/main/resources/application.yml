@@ -1,0 +1,18 @@
+server:
+  port: 9091
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bwqc?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.zn.j1902.pojo
+pagehelper:
+  helper-dialect: mysql
+  support-methods-arguments: true
+  reasonable: true
+solr:
+   baseUrl: http://localhost:8080/solr
